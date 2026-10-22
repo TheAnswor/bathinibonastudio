@@ -1,0 +1,18 @@
+{
+  "name": "bathini-bona-studio-standalone",
+  "private": true,
+  "version": "2.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @bbm/studio",
+    "build": "npm run build -w @bbm/studio",
+    "start": "npm run start -w @bbm/studio",
+    "typecheck": "npm run typecheck -w @bbm/studio"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
